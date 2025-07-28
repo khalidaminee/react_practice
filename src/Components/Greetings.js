@@ -7,9 +7,10 @@ import React from "react";
 // }
 
 export const Greetings = props => {
+    const {name, position} = props;
     return (
         <div>
-            <h1>Hello Dear {props.name}, {props.position}!</h1>
+            <h1>Hello Dear {name}, {position}!</h1>
            
             {props.children}
         </div>

@@ -13,7 +13,7 @@ function App() {
         <p>This is Children props.</p>
       </Greetings>
 
-      <Greetings>
+      <Greetings name="Mehmood" position="developer">
         <button> Change Driver </button>
       </Greetings>
       <hr></hr>
