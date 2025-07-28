@@ -15,7 +15,7 @@ class Counter extends Component {
         },
         () => {
             console.log('Callback Value', this.state.count)
-        },
+        }
         )
         // this.setState((prevState,props) => ({
         //     count: prevState.count + 1

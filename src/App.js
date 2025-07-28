@@ -5,6 +5,8 @@ import Welcome from './Components/Welcome';
 import Hello from './Components/Hello'
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
 
 function App() { 
   return (
@@ -24,6 +26,10 @@ function App() {
       <Message />
 
       <Counter />
+      <hr></hr>
+
+      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }
