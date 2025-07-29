@@ -8,11 +8,12 @@ import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
 
 function App() { 
   return (
     <div className="App">
-      <Greetings name="Ahamad" position="driver">
+      {/* <Greetings name="Ahamad" position="driver">
         <p>This is Children props.</p>
       </Greetings>
 
@@ -33,7 +34,9 @@ function App() {
       <ClassClick />
 
       <p>Event Binding</p>
-      <EventBind />
+      <EventBind /> */}
+
+      <ParentComponent />
     </div>
   );
 }
